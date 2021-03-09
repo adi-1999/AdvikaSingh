@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <meta charset= "UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asul&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="parallax.js"></script>
+    
+  <title>ADVIKA SINGH</title>
+    <style>
+        .home .person-overlay{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            /* background-image: url("bg.jpg"); */
+            background: linear-gradient(-45deg, #ee7752, #E73c7e, #23A605, #2305AB);
+            z-index: 99;
+
+
+
+
+        }
+        .home-text{
+            color: rebeccapurple;
+            margin-top: 220px;
+            position: absolute;
+        }
+        .home-text h6{
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            font-size: 16px;   
+            margin-top: -20px; 
+
+        }
+        .home-text h1{
+            color: rgb(248, 245, 247);
+            text-transform: uppercase;
+            font-size: 100px;
+            margin-top: 100px;
+
+        }
+        .home-text p{
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            font-size: 20px;
+            max-width: 1000px;
+            font-size: 16px;
+            margin-top: 230px;
+
+        }
+        .home-text .name span{
+            margin-right: 130px;
+            display: inline-block;
+        }
+        .home-text .name span:last-child{
+            margin-right: 0;
+            
+        }
+        .student span{
+            opacity: 0;
+        }
+        .name span{
+            opacity: 0;
+
+        }
+        .introduction span{
+            opacity: 0;
+
+        }
+
+
+    </style>
+    <script type="text/javascript">
+         function setnewtext(){
+            document.getElementById("b1").content("crimson");
+    }
+
+    function setoldtext(){
+
+    }
+    
+    </script>
+
+   
+
+</head>
+<body>
+ 
+
+    
+   
+    <div class="container">
+        <nav class="navbar">
+            <div class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+                
+            </div>
+            <ul class="thelistofitems">
+                <li class="items">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="items">
+                    <a href="#Me" class="nav-link">My Life</a>
+                </li>
+                <li class="items">
+                    <a href="#proj" class="nav-link">My Projects</a>
+                </li>
+                <li class="items">
+                    <a href="#CM" class="nav-link">Reach out</a>
+                </li>
+                <li class="audio">
+                    
+                    <audio id="audio1">
+                        <source src="Lauv - I Like Me Better.mp3" />
+                        </audio>
+                        <button id="play">Play</button><button id="stop">Stop</button>
+                </li>
+            </ul>
+        </nav>
+    
+</div>
+<script src="parallax.js" type="text/javascript"> </script>
+    <div class = "home">
+        <ul id="scene1">
+        <div class = "contain container1" >
+            <div class = "person">
+                <span class="person-overlay" id="scene"> 
+                 <!-- <img src="bg.jpg" alt="">      -->
+                </span>
+            </div>
+            <div class="home-text">
+                <h6 class="student">Designer, Day dreamer, coffee addict and always looking for stories</h6>
+                <h1 class="name">ADVIKA</h1>
+                <p class="introduction"> But darling, your limit begins from the stars....</p> 
+        </div>   
+        <!-- <li class = "layer" data-depth="2" >
+            <img src="cute rainbow png - 2850x1156.png" width = "200" height="200" style="position:absolute; top:60%; right: 10%" >
+            
+        </li> -->
+        
+    </ul>  
+       
+
+    </div>
+    <script>
+        var scene = document.getElementById('scene1');
+        var parallax = new Parallax(scene);
+    </script>
+  
+</div>
+
+
+
+  <script src="script.js"></script>
+  <!--jq-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--lettering-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+  <!--anime-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+  
+   
+  
+ 
+<!-- 
+  <script src="parallax.js" type="text/javascript"> </script>
+  <div class = "container1" >
+    <ul id = "scene " >
+
+       
+			 <li class="layer" data-depth=".1"><img src="c1.png"></li>
+			<li class="layer" data-depth="1"><img src="conste.png"></li>
+			<li class="layer" data-depth="-1"><img src="c3.png"></li>
+			<li class="layer" data-depth="2"><img src="constellation png iii.vi.png"></li>
+			<li class="layer" data-depth="0.5"><img src="constellation png iii.vii.png"></li>
+		</ul> --> 
+        <!-- <li class = "layer" data-depth=".1" >
+            <img src="c1.png" width = "400" height="400" style="position:absolute; top:50%; left: 50%" >
+            
+        </li>    
+
+        <li class = "layer" data-depth="1" >
+
+            <img src="conste.png" width = "400" height="400" ALIGN="right">
+        </li>
+        <li class = "layer" data-depth="-1" >
+            <img src="c3.png" width = "400" height="400" style="vertical-align:middle">
+        </li>
+        
+        </ul> -->
+    <!-- </div>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>  -->
+    <!-- <div class = "container1" >
+        <ul id = "scene " >
+    <div class="wrapper container1" id="proj" >
+            <h1 class="ti container1">My Projects</h1>
+        <div class="box container1" id="b1">
+            
+          <div class="content"
+          data-hover="lorem">Box A </div>
+        </div>
+      
+        <div class="box container1">
+          <div class="content" data-hover="lorem">boxb!</div>
+        </div>
+      
+        <div class="box container1">
+          <div class="content" data-hover="lorem">Box C</div>
+        </div>
+      
+      
+      </div> -->
+      
+    <!-- <div class = "container1" >
+        <ul id = "scene " > -->
+
+        <!-- <div class="wrapper container2" id="me" >
+        <h1 class="ti container2">About me!</h1>
+    <div class="box container2" >
+        
+      <div class="content1"></div> Hi! I am Advika Singh.I hope you are enjoying your time here.Well now that I have your attention on my website let me introduce myself properly.<br>Stories, music and coffee. Making
+through life one story at a time. I am
+learning to be an interaction designer.
+With a knack of observing stories around
+me, my day and night usually goes by
+analyzing those stories with my music
+blasting and a cup of coffee. I am a
+confident, creative and self-motivated.
+Possessing a get it done attitude while
+not compromising on quality, I try to
+maximize the impact of the work. I am a
+hardworking and comprehensive
+individual, with good time management
+skills along with having a good team
+spirit</div>
+    </div>  -->
+    <div class = "container2" >
+        <ul id = "scene " >
+
+        <div class="wrapper container2" id="My" >
+        <h1 class="ti container2">About me</h1>
+    <div class="box container2" >
+        
+      <div class="content1" >Stories, music and coffee. Making
+        through life one story at a time. I am
+        learning to be an interaction designer.
+        With a knack of observing stories around
+        me, my day and night usually goes by
+        analyzing those stories with my music
+        blasting and a cup of coffee. I am a
+        confident, creative and self-motivated.
+        Possessing a get it done attitude while
+        not compromising on quality, I try to
+        maximize the impact of the work. I am a
+        hardworking and comprehensive
+        individual, with good time management
+        skills along with having a good team
+        spirit </div>
+    </div>
+</div>
+</div>
+
+      <div class = "container1" >
+        <ul id = "scene " >
+
+        <div class="wrapper container1" id="proj" >
+        <h1 class="ti container1">My Projects</h1>
+    <div class="box container1" >
+        <a href="https://www.figma.com/proto/sQwx8Ew4QexPD0MlnS6e85/High_Fidelity?node-id=284%3A629&viewport=67%2C-2468%2C1.0086458921432495&scaling=scale-down." target="_blank" rel="nopener noreffer"></a>
+        
+      <div class="content1" data-hover="The period tracking app.Most periods tracking apps are not personalized or inclusive of the user’s needs. We try to solve this problem through design methods and come up with an app that understands the user and adapts to the users needs .
+      The prototype can be found by clicking this link:-
+     
+      " >CRIMSON </div>
+    
+    
+    
+    </div>
+
+    <div class="box container1" >
+        
+        <div class="content1" data-hover="In this Problem , we had to tackle Sustainable Development Goals, goal 14- Decent work and economic Growth. Through research and extensive design processes have come up with the solution SkillTrade. It allows people to pass on their skills to those who need it and helps tackle unemployment. The prototype of this app can be found on this link :-" >SKILLSHARE</div>
+      
+      
+      
+      </div>
+
+      <div class="box container1" >
+        
+        <div class="content1" data-hover="Starting to work for Entyre, a german pharmaceutical company to help save patients lives (ONGOING) " >Entyre</div>
+      
+      
+      
+      </div>
+
+
+
+</div> </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class = "container2" >
+        <ul id = "scene " >
+
+        <div class="wrapper container2" id="CM" >
+        <h1 class="ti container2">Contact Me</h1>
+    <div class="box container2" >
+        
+      <div class="content1" data-hover="How about we sit down and have a cup of coffee? Or we can talk and listen to music! Reach out to me for anything!" > EMAIL : advika.work1010@gmail.com<br>GITHUB : https://github.com/adi-1999 <br> Linkedlin: www.linkedin.com/in/advika-singh</div>
+    </div> 
+  
+    <!-- <div class="box container1">
+      <div class="content ">Box BBox A Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur pariatur fugiat nostrum non corporis tempore similique facere soluta illo, aspernatur voluptas necessitatibus debitis culpa minima ut vitae nulla saepe iure.
+        Nemo rerum reprehenderit sequi? Ipsa, animi quasi! Adipisci quis porro est nulla quam id, ad architecto deserunt possimus reiciendis delectus harum voluptatibus eos expedita facere, cupiditate deleniti. Ratione, sint explicabo.
+        Autem iste maiores dolores eveniet in fugiat, eos vel laborum repellat officiis possimus tempore nesciunt odio cum sunt ad dolor rem blanditiis. Illo, numquam facere doloremque vitae nulla enim aperiam?
+        Beatae praesentium omnis nostrum nihil tempore impedit, deleniti minima cumque maxime, ullam vel consequuntur corrupti illo quisquam, sit repellendus accusamus pariatur repellat optio similique molestiae. Molestiae inventore numquam quasi iusto?
+        Fuga adipisci natus odio, quas recusandae culpa omnis, ea itaque quibusdam eos enim esse assumenda magni pariatur obcaecati eveniet odit, nemo accusamus. Perspiciatis repellendus quos error. Praesentium quia illo laudantium!</div>
+    </div>
+  
+    <div class="box container1">
+      <div class="content">Box CBox A Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur pariatur fugiat nostrum non corporis tempore similique facere soluta illo, aspernatur voluptas necessitatibus debitis culpa minima ut vitae nulla saepe iure.
+        Nemo rerum reprehenderit sequi? Ipsa, animi quasi! Adipisci quis porro est nulla quam id, ad architecto deserunt possimus reiciendis delectus harum voluptatibus eos expedita facere, cupiditate deleniti. Ratione, sint explicabo.
+        Autem iste maiores dolores eveniet in fugiat, eos vel laborum repellat officiis possimus tempore nesciunt odio cum sunt ad dolor rem blanditiis. Illo, numquam facere doloremque vitae nulla enim aperiam?
+        Beatae praesentium omnis nostrum nihil tempore impedit, deleniti minima cumque maxime, ullam vel consequuntur corrupti illo quisquam, sit repellendus accusamus pariatur repellat optio similique molestiae. Molestiae inventore numquam quasi iusto?
+        Fuga adipisci natus odio, quas recusandae culpa omnis, ea itaque quibusdam eos enim esse assumenda magni pariatur obcaecati eveniet odit, nemo accusamus. Perspiciatis repellendus quos error. Praesentium quia illo laudantium!</div>
+    </div> -->
+  
+  
+  </div> 
+  </div>
+  <!-- 
+  <script src="parallax.js" type="text/javascript"> </script>
+  <div class = "container1" >
+    <ul id = "scene " >
+
+       
+			 <li class="layer" data-depth=".1"><img src="c1.png"></li>
+			<li class="layer" data-depth="1"><img src="conste.png"></li>
+			<li class="layer" data-depth="-1"><img src="c3.png"></li>
+			<li class="layer" data-depth="2"><img src="constellation png iii.vi.png"></li>
+			<li class="layer" data-depth="0.5"><img src="constellation png iii.vii.png"></li>
+		</ul> --> 
+        <!-- <li class = "layer" data-depth=".1" >
+            <img src="c1.png" width = "400" height="400" style="position:absolute; top:50%; left: 50%" >
+            
+        </li>    
+
+        <li class = "layer" data-depth="1" >
+
+            <img src="conste.png" width = "400" height="400" ALIGN="right">
+        </li>
+        <li class = "layer" data-depth="-1" >
+            <img src="c3.png" width = "400" height="400" style="vertical-align:middle">
+        </li>
+        
+        </ul> -->
+    <!-- </div>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>  -->
+    <!-- <div class = "container1" >
+        <ul id = "scene " >
+    <div class="wrapper container1" id="proj" >
+            <h1 class="ti container1">My Projects</h1>
+        <div class="box container1" id="b1">
+            
+          <div class="content"
+          data-hover="lorem">Box A </div>
+        </div>
+      
+        <div class="box container1">
+          <div class="content" data-hover="lorem">boxb!</div>
+        </div>
+      
+        <div class="box container1">
+          <div class="content" data-hover="lorem">Box C</div>
+        </div>
+      
+      
+      </div> -->
+    
+    
+  
+  <script>
+      $(document).ready(function(){
+          $(".name,.student,.introduction").lettering();
+
+          //animejs
+          //anime({
+             // targets: '.home .person-overlay',
+              //translateX: 1100;
+              //delay: 1000,
+              //duration: 1500,
+              //easing: 'easeInSine'
+          //})
+         anime({
+            targets: '.student span',
+            opacity: 1,
+            duration: 1500,
+            easing: 'easeInSine',
+            delay: anime.stagger(100, {start: 3000})
+                        })
+        anime({
+            targets: '.introduction span',
+            opacity: 1,
+            duration: 1500,
+            easing: 'easeInSine',
+            delay: anime.stagger(100, {start: 3000})
+                        })
+               
+        anime({
+            targets: '.name span',
+            opacity: 1,
+            duration: 3000,
+            easing: 'easeInSine',
+            delay: anime.stagger(100, {start: 4500})
+        })
+
+        anime({
+            targets: '.name .char2, .name .char4, .name .char6',
+            keyframes: [
+                {translateY: 50, duration: 1500}
+            ],
+            easing: 'easeInOutExpo',
+            delay: 8000,
+
+
+        })
+        anime({
+            targets: '.name .char1, .name .char3, .name .char5',
+            keyframes: [
+                {translateY: -100, duration:1500}
+            ],
+            easing: 'easeInOutExpo',
+            delay: 8000,
+            
+
+        })
+        // anime({
+        //     targets: '.intro span',
+        //     opacity: 1,
+        //     duration: 1000,
+        //     easing: 'easeInSine'
+        //     delay: anime.stagger(50, {start: 11000})
+        // })
+       
+
+                    
+
+
+
+
+
+      });
+      
+      
+  </script>
+
+
+</body>
+</html>
